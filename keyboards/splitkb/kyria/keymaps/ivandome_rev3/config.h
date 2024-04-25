@@ -35,9 +35,6 @@
 #    endif
 #endif
 
-// Lets you roll mod-tap keys
-#define IGNORE_MOD_TAP_INTERRUPT
-
 // Fix for issue slave side hangs up at cold.
 // https://github.com/qmk/qmk_firmware/issues/18571
 // https://github.com/qmk/qmk_firmware/issues/8990
