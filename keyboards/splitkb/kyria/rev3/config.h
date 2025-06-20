@@ -16,14 +16,5 @@
 
 #pragma once
 
-// `SPLIT_HAND_PIN` can currently be defined in `info.json`,
-// but can't yet be given a value
-#define SPLIT_HAND_PIN B5
-
-// Not yet available in `info.json`
 #define OLED_DISPLAY_128X64
 #define SPLIT_OLED_ENABLE
-
-// Use the controller led for caps lock
-// #define LED_CAPS_LOCK_PIN 24
-// #define LED_PIN_ON_STATE 0
