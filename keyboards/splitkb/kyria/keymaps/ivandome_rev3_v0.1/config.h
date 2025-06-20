@@ -31,8 +31,13 @@
 #    define RGBLIGHT_SAT_STEP 8
 #    define RGBLIGHT_VAL_STEP 8
 #    ifndef RGBLIGHT_LIMIT_VAL
-#    	define RGBLIGHT_LIMIT_VAL 150
+#        define RGBLIGHT_LIMIT_VAL 150
 #    endif
+#endif
+
+#ifdef OLED_ENABLE
+#    define OLED_DISPLAY_128X64
+#    define SPLIT_OLED_ENABLE
 #endif
 
 // Fix for issue slave side hangs up at cold.
