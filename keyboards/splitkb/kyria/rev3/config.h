@@ -21,7 +21,9 @@
 #define SPLIT_HAND_PIN B5
 
 // Not yet available in `info.json`
-#ifdef OLED_ENABLE
-#    define OLED_DISPLAY_128X64
-#    define SPLIT_OLED_ENABLE
-#endif
+#define OLED_DISPLAY_128X64
+#define SPLIT_OLED_ENABLE
+
+// Use the controller led for caps lock
+// #define LED_CAPS_LOCK_PIN 24
+// #define LED_PIN_ON_STATE 0
